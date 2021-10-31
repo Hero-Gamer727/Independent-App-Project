@@ -1,0 +1,74 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+    
+}
+
+.login_div{
+		background: rgb(188, 244, 188);
+		padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+		float: none;
+		border-radius: 15px;
+        margin-left: 375px;
+        margin-top: 50px;
+	}
+
+    #login_button{
+background-color: teal;
+color: white;
+margin-top: 20px;
+    font-size: 25px;
+}
+
+#garden,#interior{
+    font-size: 50px;
+    background-color: transparent;
+    border-style: ridge;
+    border-color:rgb(188, 244, 188);
+    border-radius: 20px;
+    border-width: 20px;
+    margin-top: 125px;
+    
+}
+
+.login_div1{
+    background: white;
+    padding: 10px;
+    height: 300px;
+    width: 500px;
+    float: none;
+    border-radius: 15px;
+    padding-bottom: 300px;
+    margin-top: 100px;
+    margin-left: 700px;
+}
+
+#warm_button,#cool_button,#modern_button{
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+#chic_button{
+background-color: rgb(119, 103, 103);
+color: white;
+font-size: 60px;
+    margin-top: 100px;
+
+}
+
+#bed_button,#living_button,#bath_button{
+    margin-top: 100px;
+    font-size: 60px;
+}
+
+.item_image{
+height: 300px;
+width: 300px;
+}
+
+#myCarousel{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
