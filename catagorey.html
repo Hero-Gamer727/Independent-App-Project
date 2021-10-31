@@ -9,13 +9,24 @@
     <title>Catagorey Chooser</title>
 </head>
 <body>
-   <h1>Click on One To Start The Suggesting</h1> 
+   <center>
+    <h1>Click on Interior</h1> 
    <div class="col-lg-4 col-md-4 col-sm-8 col-xs-11 login_div1">
 <br><br>
 <button type="submit" onclick="Interiorscreen()" id="interior">Interior</button>
 </div>
 <script src="catagorey.js"></script>
+<button id="back" class="btn-danger back" onclick="back()" style="font-size: 30px; background-color: red;">BACK</button>
+</center>
+<script>
+    function back(){
+window.location = "index.html";
+localStorage.removeItem("theme")
+}
+
+</script>
 </body>
+
 </html>
 
 

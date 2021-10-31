@@ -11,6 +11,7 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <center>
     <button id="bed_button" class="btn-primary" onclick="bedroom()">BEDROOM</button>
     <br><br>
     <button id="bath_button" class="btn-primary" onclick="bathroom()">BATHROOM</button>
@@ -18,5 +19,12 @@
     <button id="living_button" class="btn-primary" onclick="livingroom()">LIVING ROOM</button>
     <br><br>
     <script src="roomtype.js"></script>
+    <button id="back" class="btn-danger back" onclick="back()" style="font-size: 30px;">BACK</button>
+    </center>
+    <script>
+        function back(){
+window.location = "interior.html";
+}
+    </script>
 </body>
 </html>

@@ -11,6 +11,7 @@
     <title>Theme</title>
 </head>
 <body>
+    <center>
     <button id="warm_button" class="btn-warning" onclick="warm()">WARM</button>
     <br><br>
     <button id="cool_button" class="btn-primary" onclick="cool()">COOL</button>
@@ -20,6 +21,12 @@
     <button id="modern_button" onclick="modern()">MODERN</button>
     <br><br>
 <script src="interior.js"></script>
-
+<button id="back" class="btn-danger back" onclick="back()" style="font-size: 30px; background-color: red;">BACK</button>
+</center>
+<script>
+    function back(){
+window.location = "catagorey.html";
+}
+</script>
 </body>
 </html>
