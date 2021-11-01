@@ -1,5 +1,5 @@
  function Interiorscreen(){
-window.location = "interior.html";
+window.location = "index1.html";
  }
 
  
